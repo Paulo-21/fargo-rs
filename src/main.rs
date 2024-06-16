@@ -1,3 +1,6 @@
+mod cli;
+mod parser;
+mod graph;
 fn main() {
-    println!("Hello, world!");
+    cli::launcher();
 }
