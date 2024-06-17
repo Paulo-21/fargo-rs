@@ -6,9 +6,9 @@ use crate::cli::Format;
 
 pub fn get_input(file_path : &str, format : Format) -> ArgumentationFramework {
     match format {
-        Format::APX => reading_apx(file_path),
+        Format::Apx => reading_apx(file_path),
         //Format::CNF => reading_cnf(file_path),
-        Format::CNF => reading_cnf_perf(file_path),
+        Format::Cnf => reading_cnf_perf(file_path),
     }
 }
 
